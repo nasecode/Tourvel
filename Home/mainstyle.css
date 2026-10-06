@@ -208,10 +208,14 @@
     margin: 0px 100px 0px 100px;
   }
 @media screen and (max-aspect-ratio: 3/5){
-    .topnav, .topnav p, .dropdown .dropbtn, footer{
+    .topnav, .topnav p, .dropdown .dropbtn{
         font-size:x-large;
     }
     .dropdown-content{
         margin-top: 20px;
+    }
+    footer{
+        font-size:x-large;
+        padding: 10px
     }
 }
