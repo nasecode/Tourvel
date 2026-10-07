@@ -199,6 +199,9 @@
     .dropdown-content{
         margin-top: 20px;
     }
+    .dropbtnbody {
+        font-size:x-large
+    }
     footer{
         font-size:x-large;
         padding: 5px;
