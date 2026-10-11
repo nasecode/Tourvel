@@ -202,8 +202,8 @@
     .dropdown-content{
         margin-top: 20px;
     }
-    footer{
+    .footer{
         font-size:x-large;
-        padding: 5px;
+        padding: 10px;
     }
 }
