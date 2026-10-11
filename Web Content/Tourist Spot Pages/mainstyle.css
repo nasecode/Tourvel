@@ -178,6 +178,10 @@
   }
   
   footer {
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
     width: 100%;
     padding: 10px;
   }
@@ -191,7 +195,7 @@
     color: #eeeeee;
     margin: 0px 100px 0px 100px;
   }
-  @media screen and (max-aspect-ratio: 3/5){
+@media screen and (max-aspect-ratio: 3/5){
     .topnav, .topnav p, .dropdown .dropbtn{
         font-size:x-large;
     }
@@ -202,4 +206,4 @@
         font-size:x-large;
         padding: 5px;
     }
-  }
+}
