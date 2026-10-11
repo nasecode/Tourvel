@@ -9,8 +9,7 @@
     font-family: Arial;
     padding: 10px;
   }
-  
-  /* Header/Blog Title */
+
   .header {
     display:relative;
     padding: 30px;
@@ -28,7 +27,6 @@
     font-family: "Lucida Console", "Courier New", monospace;
   }
   
-  /* Style the top navigation bar */
   .topnav {
     overflow:hidden;
     background-color: rgb(19, 160, 196);
@@ -37,12 +35,11 @@
     align-items: center;
   }
 
-  /*remarks*/
   .topnav p{
     font-size: 20px;
     margin: 0px 0px 0px 0px;
   }
-  /* Style the topnav links */
+ 
   .topnav a {
     float:center;
     display:block;
@@ -52,13 +49,11 @@
     text-decoration: none;
   }
   
-  /* Change color on hover */
   .topnav a:hover {
     background-color: rgba(255, 247, 247, 0.2);
     color: rgb(0, 0, 0);
   }
 
-  /*logo css*/
   .logo img{
     float: left;
     image-rendering:1080px;
@@ -71,7 +66,6 @@
     background-color: rgb(6, 49, 70);
   }
 
-/*Menu Css*/
   .dropdown {
     float:right;
     overflow: hidden;
@@ -117,8 +111,7 @@
   .dropdown:hover .dropdown-content {
     display:block;
   }
-  
-  /* Footer */
+
   footer {
     position: fixed;
     left: 0;
@@ -223,19 +216,3 @@
         padding: 5px;
     }
 }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .regions{   
-      width: 100%;
-      padding: 0;
-    }
-  }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
