@@ -209,6 +209,15 @@
     .dropdown-content{
         margin-top: 20px;
     }
+    .team .team_member h3{
+    font-size: xx-large;
+    }
+    .team .team_member{
+        width: 60%;
+    }
+    .team .team_member p.role, .team .team_member p{
+        font-size: x-large;
+    }
     footer{
         font-size:x-large;
         padding: 5px;
