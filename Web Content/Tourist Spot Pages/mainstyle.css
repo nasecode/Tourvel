@@ -9,8 +9,6 @@
     font-family: Arial;
     padding: 10px;
   }
-  
-  /* Header/Blog Title */
   .header {
     display:static;
     padding: 30px;
@@ -27,8 +25,7 @@
     text-shadow:2px 2px #021924;
     font-family: "Lucida Console", "Courier New", monospace;
   }
-  
-  /* Style the top navigation bar */
+
   .topnav {
     overflow:hidden;
     background-color: rgb(19, 160, 196);
@@ -37,12 +34,11 @@
     align-items: center;
   }
 
-  /*remarks*/
   .topnav p{
     font-size: 20px;
     margin: 0px 0px 0px 0px;
   }
-  /* Style the topnav links */
+
   .topnav a {
     float:center;
     display:block;
@@ -52,13 +48,11 @@
     text-decoration: none;
   }
   
-  /* Change color on hover */
   .topnav a:hover {
     background-color: rgba(255, 247, 247, 0.2);
     color: rgb(0, 0, 0);
   }
 
-  /*logo css*/
   .logo img{
     float: left;
     image-rendering:1080px;
@@ -71,7 +65,6 @@
     background-color: rgb(6, 49, 70);
   }
 
-/*Menu Css*/
   .dropdown {
     float:right;
     overflow: hidden;
@@ -118,8 +111,6 @@
     display:block;
   }
   
-  /* Create three unequal columns that floats next to each other */
-  /* Center column */
   .centercolumn {
     float:left;
     width:25%;
@@ -127,7 +118,6 @@
     padding-right: 20px;
   }
 
-  /* Right column*/
   .rightcolumn {
     position: static;
     float:left;
@@ -136,26 +126,23 @@
     padding-right: 0px;
   }
   
-  /* Left column */
   .leftcolumn {   
     float: left;
     width: 50%;
   }
   
-  /* videos */
   .vids {
     background-color: rgba(35, 37, 37, 0.3);
     width: 100%;
     padding: 20px;
   }
-  /* image */
+
    .center img{
     width: 100%;
     height: inherit;
     padding: 20px;
   }
   
-  /* Add a card effect for articles */
   .card {
     background-color: rgba(19, 160, 196, 0.9);
     padding:20px;
@@ -163,7 +150,6 @@
     overflow-y: auto;
   }
   
-  /*font style*/
   .row h2{
     margin: 20px;
     font-size:30px;
@@ -185,19 +171,13 @@
     font-size: 20px;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Footer */
   footer {
-    left: 0;
-    right:0;
-    top:0;
-    bottom:0;
     width: 100%;
     padding: 10px;
   }
@@ -222,19 +202,3 @@
         font-size:x-large;
         padding: 5px;
     }
-}
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn, .centercolumn{   
-      width: 100%;
-      padding: 0;
-    }
-  }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
