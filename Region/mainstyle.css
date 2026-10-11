@@ -10,7 +10,6 @@
     padding: 10px;
   }
   
-  /* Header/Blog Title */
   .header {
     display:relative;
     padding: 30px;
@@ -19,7 +18,6 @@
   }
   
   .header h1 {
-    
     position:sticky;
     padding: 0px 0px 0px 0px;
     font-size: 50px;
@@ -27,8 +25,7 @@
     text-shadow:2px 2px #021924;
     font-family: "Lucida Console", "Courier New", monospace;
   }
-  
-  /* Style the top navigation bar */
+
   .topnav {
     overflow:hidden;
     background-color: rgb(19, 160, 196);
@@ -37,12 +34,11 @@
     align-items: center;
   }
 
-  /*remarks*/
   .topnav p{
     font-size: 20px;
     margin: 0px 0px 0px 0px;
   }
-  /* Style the topnav links */
+
   .topnav a {
     float:center;
     display:block;
@@ -51,14 +47,12 @@
     padding: 3px 30px 3px 30px;
     text-decoration: none;
   }
-  
-  /* Change color on hover */
+
   .topnav a:hover {
     background-color: rgba(255, 247, 247, 0.2);
     color: rgb(0, 0, 0);
   }
 
-  /*logo css*/
   .logo img{
     float: left;
     image-rendering:1080px;
@@ -71,7 +65,6 @@
     background-color: rgb(6, 49, 70);
   }
 
-/*Menu Css*/
   .dropdown {
     float:right;
     overflow: hidden;
@@ -117,8 +110,7 @@
   .dropdown:hover .dropdown-content {
     display:block;
   }
-  
-  /*Regions*/
+
   .Regions{
     float: left;
     text-align: center;
@@ -165,8 +157,9 @@
     display: block;
   }
   
-  .dropdownbody-content a:hover {background-color: #00b7ff}
-  
+  .dropdownbody-content a:hover {
+      background-color: #00b7ff;
+  }
   .dropdownbody:hover .dropdownbody-content {
     display: block;
   }
@@ -174,7 +167,7 @@
   .dropdownbody:hover .dropbtnbody {
     background-color: #f8f8f8;
   }
-  /* Footer */
+
   footer {
     position: fixed;
     left: 0;
@@ -207,18 +200,3 @@
         padding: 5px;
     }
 }
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .regions{   
-      width: 100%;
-      padding: 0;
-    }
-  }
-  
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
